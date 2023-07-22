@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+  padding: 10px;
+  height: 100%;
+}
+.left {
+	width: 30%;
+	background-color: rgb(52, 78, 108);
+	padding: 10px;
+	background-size: cover;
+}
+.right {
+    width: 70%;
+	background-color: rgb(97, 125, 136);
+	padding: 10px;
+	background-size: cover;
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 2px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+li{
+	margin-left: 10px;
+}
+table {
+	border-color: black;
+  border-collapse: collapse;
+  text-align: center;
+}
